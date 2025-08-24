@@ -32,13 +32,13 @@ export default function Navbar() {
                 <Link href="/about">About</Link>
               </li>
               <li>
-                <Link href="/project">Projects</Link>
+                <Link href="/projects">Projects</Link>
                 <ul className="p-2">
                   <li>
-                    <Link href="/project">Projects 1</Link>
+                    <Link href="/projects">Projects 1</Link>
                   </li>
                   <li>
-                    <Link href="/project">Projects 1</Link>
+                    <Link href="/projects">Projects 1</Link>
                   </li>
                 </ul>
               </li>
@@ -70,10 +70,10 @@ export default function Navbar() {
                 <summary>Project</summary>
                 <ul className="p-2">
                   <li>
-                    <Link href="/project">Project 1</Link>
+                    <Link href="/projects">Project 1</Link>
                   </li>
                   <li>
-                    <Link href="/project">Project 2</Link>
+                    <Link href="/projects">Project 2</Link>
                   </li>
                 </ul>
               </details>
