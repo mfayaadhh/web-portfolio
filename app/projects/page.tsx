@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div>projects page</div>
+    <div className="flex-grow">projects page</div>
   )
 }
