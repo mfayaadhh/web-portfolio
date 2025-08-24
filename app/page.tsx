@@ -91,24 +91,87 @@ export default function Home() {
               fungsional.
             </p>
           </div>
-          {/* Container 2 Section 2 */}
-          <div className="card bg-base-100 shadow-sm w-96 lg:w-1/2">
-            <figure>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                alt="Shoes"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Project Babibu</h2>
-              <p>
-                A card component has a figure, a body part, and inside body
-                there are title and actions parts
-              </p>
-              <div className="card-actions">
-                <button className="btn btn-primary btn-outline mt-5">
-                  Cek Sekarang
-                </button>
+          {/* Section 2 Carousel */}
+          <div className="carousel w-96 lg:w-1/2">
+            {/* Slide 1 Carousel */}
+            <div id="slide1" className="carousel-item relative w-full">
+              <div className="card bg-base-100 w-full shadow-sm">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes"
+                  />
+                </figure>
+                <div className="card-body bg-base-300">
+                  <h2 className="card-title">Project blabliblu</h2>
+                  <p>
+                    A card component has a figure, a body part, and inside body
+                    there are title and actions parts
+                  </p>
+                  <div className="card-actions">
+                    <button className="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="slide1" className="carousel-item relative w-full">
+              <div className="card bg-base-100 w-full shadow-sm">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes"
+                  />
+                </figure>
+                <div className="card-body bg-base-300">
+                  <h2 className="card-title">Project blabliblu</h2>
+                  <p>
+                    A card component has a figure, a body part, and inside body
+                    there are title and actions parts
+                  </p>
+                  <div className="card-actions">
+                    <button className="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="slide1" className="carousel-item relative w-full">
+              <div className="card bg-base-100 w-full shadow-sm">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes"
+                  />
+                </figure>
+                <div className="card-body bg-base-300">
+                  <h2 className="card-title">Project blabliblu</h2>
+                  <p>
+                    A card component has a figure, a body part, and inside body
+                    there are title and actions parts
+                  </p>
+                  <div className="card-actions">
+                    <button className="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="slide1" className="carousel-item relative w-full">
+              <div className="card bg-base-100 w-full shadow-sm">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes"
+                  />
+                </figure>
+                <div className="card-body bg-base-300">
+                  <h2 className="card-title">Project blabliblu</h2>
+                  <p>
+                    A card component has a figure, a body part, and inside body
+                    there are title and actions parts
+                  </p>
+                  <div className="card-actions">
+                    <button className="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
