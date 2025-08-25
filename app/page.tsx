@@ -44,11 +44,11 @@ export default function Home() {
               alt="Ilustrasi Coding"
             />
           </div>
-          <div className="w-1/2">
+          <div className="flex flex-wrap w-full lg:w-1/2 justify-center lg:justify-start">
             <h2 className="text-4xl mb-10 font-bold">
               Solusi Website untuk Bisnis Anda
             </h2>
-            <p className="text-xl">
+            <p className="text-xl text-justify lg:text-left">
               Saya menyediakan layanan pembuatan website yang simpel, cepat, dan
               terjangkau. Website yang saya buat tidak hanya terlihat
               profesional, tetapi juga mudah digunakan dan responsif di berbagai
@@ -80,9 +80,9 @@ export default function Home() {
           Hasil Karya Saya
         </h2>
         {/* Section 2 Container */}
-        <div className="p-10 gap-10 flex justify-evenly flex-wrap lg:flex-nowrap">
+        <div className="p-10 gap-10 flex justify-evenly flex-wrap lg:flex-nowrap text-justify lg:text-left">
           {/* Section 2 Container 1 */}
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2">
             <p className="text-xl">
               Setiap website yang saya buat adalah hasil dari perhatian terhadap
               detail, keindahan desain, dan kebutuhan bisnis klien. Di sini Anda
@@ -92,7 +92,7 @@ export default function Home() {
             </p>
           </div>
           {/* Section 2 Carousel */}
-          <div className="carousel w-96 lg:w-1/2">
+          <div className="carousel w-full lg:w-1/2">
             {/* Slide 1 Carousel */}
             <div id="slide1" className="carousel-item relative w-full">
               <div className="card bg-base-100 w-full shadow-sm">
@@ -180,7 +180,7 @@ export default function Home() {
       {/* Section 3 */}
       <section className="p-10 bg-primary ">
         {/* Section Header  */}
-        <h2 className="text-4xl p-2.5 text-center font-bold">
+        <h2 className="text-4xl p-2.5 text-center font-bold text-white">
           Keunggulan Website Saya
         </h2>
         {/* Anak Section */}
@@ -290,13 +290,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Section 4 */}
+      {/* Section 4 - Harga Website */}
       <section className="p-10">
         <div className="divider divider-primary">
           <h2 className="text-center font-bold text-4xl">Harga Website</h2>
         </div>
         {/* Pricing Card Container */}
-        <div className="flex justify-evenly">
+        <div className="flex flex-wrap justify-evenly">
           {/* Card 1 */}
           <div className="card w-96 bg-base-100 shadow-sm">
             <div className="card-body">

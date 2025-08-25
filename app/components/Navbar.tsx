@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import ThemeController from "./ThemeController";
 
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm lg:px-20">
+      <div className="navbar bg-base-100 shadow-sm lg:px-20 h-18 lg:h-20">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -61,14 +62,14 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-lg">
+          <ul className="menu menu-horizontal text-lg">
             <li>
               <Link href="/about">About</Link>
             </li>
             <li>
-              <details>
+              <details className="dropdown dropdown-center text-center">
                 <summary>Project</summary>
-                <ul className="p-2">
+                <ul className="menu dropdown-content w-28">
                   <li>
                     <Link href="/projects">Project 1</Link>
                   </li>
@@ -82,9 +83,30 @@ export default function Navbar() {
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
+          {/* <ul role="tablist" className="tabs">
+            <li>
+              <Link href="/about" className="tab">About</Link>
+            </li>
+            <li>
+              <details className="text-center tab">
+                <summary>Project</summary>
+                <ul className="menu dropdown-content w-28">
+                  <li>
+                    <Link href="/projects">Project 1</Link>
+                  </li>
+                  <li>
+                    <Link href="/projects">Project 2</Link>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <Link href="/contact" className="tab">Contact</Link>
+            </li>
+          </ul> */}
         </div>
         <div className="navbar-end">
-          <Link href="/about" className="btn btn-accent">
+          <Link href="/about" className="btn btn-accent mx-5">
             Harga Website
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -101,6 +123,7 @@ export default function Navbar() {
               />
             </svg>
           </Link>
+          <ThemeController />
         </div>
       </div>
     </>
